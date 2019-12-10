@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]> <html lang="es"class="iem7"> <![endif]-->
+<!--[if lt IE 7 ]> <html lang="es" class="ie6 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="es" class="ie7 lt-ie8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="es" class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" ; "charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BAHRA</title>
+  <meta name="description" content="Landing page del BAHRA, con plantilla Poncho sobre bootstrap">
+  <meta name="author" content="Instituto Geográfico Nacional">
+  <link rel="shortcut icon" href="images/bahra_ico.png">
+  <meta name="theme-color" content="#0072b8">
+  <meta name="msapplication-navbutton-color" content="#0072b8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0072b8">
+  <meta property="og:url" content="http://localhost:4000/proyectos/argentina/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="BAHRA" />
+  <meta property="og:description"
+    content="sitio perteneciente a la Administración Pública Nacional de la República Argentina." />
+  <meta property="og:image" content="/images/banner_home02.jpg" />
+  <meta property="og:locale" content="es_AR" />
+  <meta name="twitter:card" content="BAHRA" />
+  <meta name="twitter:title"
+    content="sitio perteneciente a la Administración Pública Nacional de la República Argentina." />
+  <meta name="twitter:image" content="/ejemplos/img/jumbotron.jpg" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/poncho_bahra.css">
+  <link rel="stylesheet" href="https://qa-poncho.argentina.gob.ar/dist/icono-arg.css">
+  <link rel="stylesheet" href="https://qa-poncho.argentina.gob.ar/dist/css/argentina.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-top navbar-default bg-verdin" role="navigation">
+      <div class="container">
+        <div>
+          <div class="navbar-header">
+            <a href="index.html" title="BAHRA">
+              <img class="logo-img hidden-xs" src="images/logo_BAHRA.png" alt="BAHRA">
+              <img class="logo-img hidden-sm hidden-md hidden-lg m-t-1 m-l-4" src="images/logo_BAHRA_small.png"
+                alt="BAHRA">
+            </a>
+          </div>
+        </div>
+    </nav>
+  </header>
+  <main role="main">
+    <section class="jumbotron" style="background-image:url('images/banner_home02.jpg');">
+      <div class="jumbotron_body jumbotron_body-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="text-center text">Asentamientos humanos: 14.674</h2><br>
+              <h4 style="text-align:center">Localidades: 3.529 | Entidades: 707 | Parajes: 10.425 | Bases antárticas: 13
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+    <section class="bg-gray section-sm">
+      <div class="">
+        <div class="panel-pane pane-atajos">
+          <div class="pane-content">
+            <ul class="nav nav-icons ">
+              <li class=""><a href="mapa" target="_blank"><i class="bg-verdin"><img
+                      src="images/bicontinental_ico.svg"></i><span>Mapa</span></a></li>
+              <li class=""><a href="#descargas" target="_self"><i
+                    class="icono-arg-nube-bajar-datos bg-verdin"></i><span>Descargas</span></a></li>
+              <li class=""><a href="#geoservicios" target="_self"><i class="bg-verdin"><img
+                      src="images/geoservicio_ico.svg"></i><span>Geoservicios</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="panel-separator"></div>
+        <div class="panel-pane pane-atajos">
+          <div class="pane-content">
+            <div class="row panels-row" id="destacados"></div>
+          </div>
+        </div>
+        <div class="panel-separator"></div>
+        <div class="panel-pane pane-texto">
+          <div class="pane-content">
+            <div class="">
+              <div class="row text-left">
+                <div class="col-sm-4 ">
+                  <h3 class="text-verdin">¿Qué es BAHRA?</h3>
+                  <p class="text-muted"><small>La Base de Asentamientos Humanos de la República Argentina es la primera
+                      base de datos oficial y normalizada de localidades, parajes, entidades y bases antárticas del
+                      territorio nacional; donde se identifica unívocamente a todos los asentamientos humanos,
+                      registrando el nombre, coordenadas y código único, entre otros atributos.</small> </p>
+                  <p class="text-muted"><small>La información contenida en este portal es de referencia y se actualiza
+                      de forma constante; por ello puede contener diferencias con la publicación de datos por parte de
+                      otras jurisdicciones según el objeto geográfico representado.</small></p>
+                </div>
+                <div class="col-sm-4">
+                  <h3 class="text-verdin">Objetivos</h3>
+                  <p class="text-muted"><small>Contribuir al conocimiento y sistematización de la información
+                      geoespacial y estadística referida a los asentamientos humanos en el territorio nacional y, en
+                      consecuencia, aportar al diseño e implementación de políticas públicas y de las diversas
+                      actividades económicas y sociales que se desarrollan en el país.</p>
+                  </small>
+                </div>
+                <div class="col-sm-4">
+                  <h3 class="text-verdin">Antecedentes</h3>
+                  <p class="text-muted"><small>En noviembre de 2011 se celebró un Convenio Marco de Cooperación entre el
+                      Instituto Geográfico Nacional (IGN), dependiente del Ministerio de Defensa, el Instituto Nacional
+                      de Estadística y Censos (INDEC), dependiente del Ministerio de Hacienda, y el Programa Nacional
+                      Mapa Educativo dependiente del Ministerio de Educación para el intercambio e integración de
+                      información y efectiva conformación de la Base de Asentamientos Humanos de la República Argentina.
+                  </p>
+                  </small></p>
+                </div>
+              </div>
+              <section class="m-y-0 p-y-1">
+                <div id="descargas" class="">
+                  <h4 class="text-muted">Descargas</h4>
+                  <div class="row panels-row">
+                    <div class="col-sm-4">
+                      <div class="panel alert-success">
+                        <div class="panel-body">
+                          <h3>Localidad</h3>
+                          <p><small>Superficie terrestre caracterizada por la continuidad de áreas edificadas y no
+                              edificadas conectadas entre sí por una red de calles donde se concentra población.</small>
+                          </p>
+                          <hr>
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/localidad/localidad.geojson"
+                          target="_blank">GeoJSON</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Alocalidad_bahra&outputFormat=application%2Fjson"
+                            target="_blank">GeoJSON</a> -->
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Alocalidad_bahra&outputFormat=application%2Fvnd.google-earth.kml%2Bxml">KML</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Alocalidad_bahra&outputFormat=SHAPE-ZIP">SHP</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Alocalidad_bahra&outputFormat=csv">CSV</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_entidad&outputFormat=application%2Fgml%2Bxml%3B%20version%3D3.2"
+                            target="_blank">GML</a> -->
+                          <a class="btn btn-success btn-sm" target="_blank"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/wms?service=WMS&version=1.1.0&request=GetMap&layers=bahra%3Alocalidad_bahra&bbox=-72.8859114198951%2C-54.8074039816905%2C-53.6467345738917%2C-21.8768015341057&width=448&height=768&srs=EPSG%3A4326&format=application%2Fopenlayers3">Previsualizar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="panel alert-success">
+                        <div class="panel-body">
+                          <h3>Base Antártica</h3>
+                          <p><small>Conjunto de instalaciones, servicios y viviendas destinadas a fines científicos en
+                              el Continente Antártico.</small></p>
+                          <hr>
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/base_antartica/base_antartica.geojson"
+                          target="_blank">GeoJSON</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_base_antartica&outputFormat=application%2Fjson"
+                            target="_blank">GeoJSON</a> -->
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_base_antartica&outputFormat=application%2Fvnd.google-earth.kml%2Bxml">KML</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_base_antartica&outputFormat=SHAPE-ZIP">SHP</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_base_antartica&outputFormat=csv">CSV</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_base_antartica&outputFormat=application%2Fgml%2Bxml%3B%20version%3D3.2"
+                            target="_blank">GML</a> -->
+                          <a class="btn btn-success btn-sm" target="_blank"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/wms?service=WMS&version=1.1.0&request=GetMap&layers=bahra%3Abahra_base_antartica&bbox=-67.1009258983421%2C-77.8755139273005%2C-34.6795667087982%2C-60.7377174720133&width=768&height=405&srs=EPSG%3A4326&format=application%2Fopenlayers3#toggle">Previsualizar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="panel alert-success">
+                        <div class="panel-body">
+                          <h3>Entidad</h3>
+                          <p><small>Subdivisión de una localidad según legislación del gobierno local.</small></p>
+                          <hr>
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/entidad/entidad.geojson"
+                          target="_blank">GeoJSON</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_entidad&outputFormat=application%2Fjson"
+                            target="_blank">GeoJSON</a> -->
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_entidad&outputFormat=application%2Fvnd.google-earth.kml%2Bxml">KML</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_entidad&outputFormat=SHAPE-ZIP">SHP</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_entidad&outputFormat=csv">CSV</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_entidad&outputFormat=application%2Fgml%2Bxml%3B%20version%3D3.2"
+                            target="_blank">GML</a> -->
+                          <a class="btn btn-success btn-sm" target="_blank"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/wms?service=WMS&version=1.1.0&request=GetMap&layers=bahra%3Abahra_entidad&bbox=-71.5147156577085%2C-45.8625644045819%2C-54.6649126897402%2C-22.1317190074175&width=545&height=768&srs=EPSG%3A4326&format=application%2Fopenlayers3">Previsualizar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="panel alert-success">
+                        <div class="panel-body">
+                          <h3>Paraje</h3>
+                          <p><small>Lugar situado en un área rural que se identifica con un topónimo, usualmente de
+                              límites no definidos, donde puede habitar población en forma permanente o
+                              temporaria.</small></p>
+                          <hr>
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/paraje/paraje.geojson"
+                          target="_blank">GeoJSON</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje&outputFormat=application%2Fjson"
+                            target="_blank">GeoJSON</a> -->
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje&outputFormat=application%2Fvnd.google-earth.kml%2Bxml">KML</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje&outputFormat=SHAPE-ZIP">SHP</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje&outputFormat=csv">CSV</a>
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje&outputFormat=application%2Fgml%2Bxml%3B%20version%3D3.2"
+                            target="_blank">GML</a> -->
+                          <a class="btn btn-success btn-sm" target="_blank"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/wms?service=WMS&version=1.1.0&request=GetMap&layers=bahra%3Abahra_paraje&bbox=-73.0249210562049%2C-59.4973403882369%2C-27.7087868511104%2C-21.7825501697776&width=768&height=639&srs=EPSG%3A4326&format=application%2Fopenlayers3">Previsualizar</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="panel alert-success">
+                        <div class="panel-body">
+                          <h3>Base total</h3>
+                          <p><small>Base de Asentamientos Humanos de la República Argentina.</small></p>
+                          <hr>
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/base_total/base_total.geojson"
+                          target="_blank">GeoJSON</a>
+                          <!-- 
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/base_total/base_total.kml">KML</a>
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/base_total/base_total.zip">SHP</a>
+                          -->
+                          <!-- <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje,bahra%3Abahra_entidad,bahra%3Alocalidad_bahra,bahra%3Abahra_base_antartica&outputFormat=application%2Fjson"
+                            target="_blank">GeoJSON</a> -->
+                            <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje,bahra%3Abahra_entidad,bahra%3Alocalidad_bahra,bahra%3Abahra_base_antartica&outputFormat=application%2Fvnd.google-earth.kml%2Bxml">KML</a>
+                            <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje,bahra%3Abahra_entidad,bahra%3Alocalidad_bahra,bahra%3Abahra_base_antartica&outputFormat=SHAPE-ZIP">SHP</a>
+                          <a class="btn btn-success btn-sm" href="descargas/archivos/base_total/base_total.csv">CSV</a> 
+                          <!-- 
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje,bahra%3Abahra_entidad,bahra%3Alocalidad_bahra,bahra%3Abahra_base_antartica&outputFormat=csv">CSV</a>
+                          <a class="btn btn-success btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=bahra%3Abahra_paraje,bahra%3Abahra_entidad,bahra%3Alocalidad_bahra,bahra%3Abahra_base_antartica&outputFormat=application%2Fgml%2Bxml%3B%20version%3D3.2"
+                            target="_blank">GML</a> -->
+                          <a class="btn btn-success btn-sm" target="_blank"
+                            href="https://wms.ign.gob.ar/geoserver/bahra/wms?service=WMS&version=1.1.0&request=GetMap&layers=bahra%3Abahra_paraje,bahra%3Abahra_entidad,bahra%3Alocalidad_bahra,bahra%3Abahra_base_antartica&bbox=-73.0249210562049%2C-59.4973403882369%2C-27.7087868511104%2C-21.7825501697776&width=768&height=639&srs=EPSG%3A4326&format=application%2Fopenlayers3">Previsualizar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </section>
+              <section class="m-y-0 p-y-1">
+                <div id="geoservicios" class="">
+                  <h4 class="text-muted">Geoservicios</h4>
+                  <div class="row panels-row">
+                    <div class="col-sm-6">
+                      <div class="panel alert-info">
+                        <div class="panel-body">
+                          <h3>Servicio WMS</h3>
+                          <p class="text-muted"><small>El Servicio de Mapas en Web (WMS) permite la visualización de
+                              información geográfica a partir de una representación de ésta, de una imagen del mundo
+                              real para un área solicitada por el usuario. Esta representación puede provenir de un
+                              archivo vectorial de un SIG, un mapa digital, una ortofoto, una imagen de satélite, entre
+                              múltiples posibilidades. Puede organizarse en una o más capas de datos que pueden
+                              visualizarse u ocultarse una a una. Se puede consultar cierta información disponible y las
+                              características de la imagen del mapa.</small></p>
+                          <hr>
+                          <a class="btn btn-info btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/idera/bahra/ows?service=wms&version=1.3.0&request=GetCapabilities">WMS</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="panel alert-info">
+                        <div class="panel-body">
+                          <h3>Servicio WFS</h3>
+                          <p class="text-muted"><small>El Servicio de Vectores en Web (WFS) permite el acceso y consulta
+                              de los atributos de un vector (feature) que representa información geográfica como un río,
+                              una ciudad o un lago, con una geometría descrita por un conjunto de coordenadas. El
+                              servicio WFS permite no solo visualizar la información tal y como permite un WMS, sino
+                              también consultarla y editarla libremente, con posibilidades de almacenar los cambios en
+                              una versión propia de la información original, almacenada en forma remota.</small></p>
+                          <hr>
+                          <a class="btn btn-info btn-sm"
+                            href="https://wms.ign.gob.ar/geoserver/idera/bahra/ows?service=WFS&version=1.1.0&request=GetCapabilities">WFS</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </section>
+              <section>
+                <div class="">
+                  <h4 class="text-muted">Documentación</h4>
+                  <div class="row panels-row m-t-2">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                      <a class="panel panel-default" href="descargas/glosario.pdf" target="_blank">
+                        <div class="panel-body">
+                          <div class="media">
+                            <div class="media-left padding-20"> <i
+                                class="fa icono-arg-educacion fa-fw fa-2x text-primary"></i></div>
+                            <div class="media-body">
+                              <h3>Glosario v2.0</h3>
+                              <p>Definición de objetos que integran BAHRA</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                      <a class="panel panel-default" href="descargas/incorporacion_nuevos_asentamientos.pdf"
+                        target="_blank">
+                        <div class="panel-body">
+                          <div class="media">
+                            <div class="media-left padding-20"> <i
+                                class="fa icono-arg-barrio fa-fw fa-2x text-primary"></i></div>
+                            <div class="media-body">
+                              <h3>Incorporación de nuevos asentamientos</h3>
+                              <p>Formas de ubicación, entrega y aceptación de nuevos asentamientos</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                      <a class="panel panel-default" href="descargas/codificacion.pdf" target="_blank">
+                        <div class="panel-body">
+                          <div class="media">
+                            <div class="media-left padding-20"> <i class="fa fa-qrcode fa-fw fa-2x text-primary"></i>
+                            </div>
+                            <div class="media-body">
+                              <h3>Codificación</h3>
+                              <p>Procedimientos para la asignación de códigos</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                      <a class="panel panel-default" href="descargas/estructura_base_datos.pdf" target="_blank">
+                        <div class="panel-body">
+                          <div class="media">
+                            <div class="media-left padding-20"> <i
+                                class="fa icono-arg-database fa-fw fa-2x text-primary"></i></div>
+                            <div class="media-body">
+                              <h3>Estructura de Base de Datos</h3>
+                              <p>Descripción de campos y valores de atributos</p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+  </main>
+  <footer class="main-footer bg-GRIS CLARO">
+    <div id="footer">
+      <div class="row container-fluid">
+        <div class="col-lg-2"></div>
+        <div class="col-xs-4 col-sm-4 col-lg-3"><a href="http://www.ign.gob.ar" target="_blank"><img
+              src="images/logo_ign.png" class="img-responsive"></a></div>
+        <div class="col-xs-4 col-sm-4 col-lg-3"><a href="http://www.indec.gob.ar" target="_blank"><img
+              src="images/logo_indec.png" class="img-responsive"></a></div>
+        <div class="col-xs-4 col-sm-4 col-lg-3"> <a href="http://mapa.educacion.gob.ar/" target="_blank"><img
+              src="images/logo_mapa.png" class="img-responsive"></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
