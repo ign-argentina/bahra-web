@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="bahra_base_antartica" id="bahra_base_antartica">
+	<SimpleField name="id" type="int"></SimpleField>
+	<SimpleField name="cod_pcia" type="string"></SimpleField>
+	<SimpleField name="nom_pcia" type="string"></SimpleField>
+	<SimpleField name="cod_depto" type="string"></SimpleField>
+	<SimpleField name="nom_depto" type="string"></SimpleField>
+	<SimpleField name="código" type="string"></SimpleField>
+	<SimpleField name="nombre" type="string"></SimpleField>
+	<SimpleField name="tipo" type="string"></SimpleField>
+	<SimpleField name="cod_aglo" type="string"></SimpleField>
+	<SimpleField name="nom_aglo" type="string"></SimpleField>
+	<SimpleField name="cod_agl" type="string"></SimpleField>
+	<SimpleField name="nom_agl" type="string"></SimpleField>
+	<SimpleField name="lat_gd" type="string"></SimpleField>
+	<SimpleField name="long_gd" type="string"></SimpleField>
+	<SimpleField name="lat_gs" type="string"></SimpleField>
+	<SimpleField name="long_gs" type="string"></SimpleField>
+	<SimpleField name="fuente" type="string"></SimpleField>
+</Schema>
+<Folder><name>bahra_base_antartica</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">708</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94021</SimpleData>
+		<SimpleData name="nom_depto">Islas del Atlántico Sur</SimpleData>
+		<SimpleData name="código">94021S00</SimpleData>
+		<SimpleData name="nombre">Base Orcadas</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-60.737717</SimpleData>
+		<SimpleData name="long_gd">-44.740068</SimpleData>
+		<SimpleData name="lat_gs">-60º44'16&quot;</SimpleData>
+		<SimpleData name="long_gs">-44º44'24&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-44.7400676823304,-60.7377174720133</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">709</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S09</SimpleData>
+		<SimpleData name="nombre">Base Petrel</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-63.477733</SimpleData>
+		<SimpleData name="long_gd">-56.226983</SimpleData>
+		<SimpleData name="lat_gs">-63º28'40&quot;</SimpleData>
+		<SimpleData name="long_gs">-56º13'37&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-56.2269825133845,-63.4777326950157</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">710</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S01</SimpleData>
+		<SimpleData name="nombre">Base Brown</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-64.895387</SimpleData>
+		<SimpleData name="long_gd">-62.870669</SimpleData>
+		<SimpleData name="lat_gs">-64º53'43&quot;</SimpleData>
+		<SimpleData name="long_gs">-62º52'14&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-62.8706686141605,-64.8953868921598</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">711</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S11</SimpleData>
+		<SimpleData name="nombre">Base San Martín</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-68.129953</SimpleData>
+		<SimpleData name="long_gd">-67.100926</SimpleData>
+		<SimpleData name="lat_gs">-68º 7'48&quot;</SimpleData>
+		<SimpleData name="long_gs">-67º 6' 3&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-67.1009258983421,-68.1299532754593</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">712</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S08</SimpleData>
+		<SimpleData name="nombre">Base Melchior</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-64.325730</SimpleData>
+		<SimpleData name="long_gd">-62.976429</SimpleData>
+		<SimpleData name="lat_gs">-64º19'33&quot;</SimpleData>
+		<SimpleData name="long_gs">-62º58'35&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-62.9764290264395,-64.3257302386856</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">713</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S04</SimpleData>
+		<SimpleData name="nombre">Base Decepción</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-62.975664</SimpleData>
+		<SimpleData name="long_gd">-60.697678</SimpleData>
+		<SimpleData name="lat_gs">-62º58'32&quot;</SimpleData>
+		<SimpleData name="long_gs">-60º41'52&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-60.6976775628586,-62.9756639039126</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">714</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S10</SimpleData>
+		<SimpleData name="nombre">Base Primavera</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-64.155832</SimpleData>
+		<SimpleData name="long_gd">-60.954741</SimpleData>
+		<SimpleData name="lat_gs">-64º 9'21&quot;</SimpleData>
+		<SimpleData name="long_gs">-60º57'17&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-60.9547411158037,-64.1558319662264</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">715</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S05</SimpleData>
+		<SimpleData name="nombre">Base Esperanza</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-63.398008</SimpleData>
+		<SimpleData name="long_gd">-56.997122</SimpleData>
+		<SimpleData name="lat_gs">-63º23'53&quot;</SimpleData>
+		<SimpleData name="long_gs">-56º59'50&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-56.9971223126558,-63.3980075788788</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">716</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S02</SimpleData>
+		<SimpleData name="nombre">Base Carlini</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-62.238467</SimpleData>
+		<SimpleData name="long_gd">-58.667012</SimpleData>
+		<SimpleData name="lat_gs">-62º14'18&quot;</SimpleData>
+		<SimpleData name="long_gs">-58º40' 1&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-58.6670122096153,-62.2384668554672</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">717</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S03</SimpleData>
+		<SimpleData name="nombre">Base Cámara</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-62.595108</SimpleData>
+		<SimpleData name="long_gd">-59.918406</SimpleData>
+		<SimpleData name="lat_gs">-62º35'42&quot;</SimpleData>
+		<SimpleData name="long_gs">-59º55' 6&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-59.9184064909185,-62.5951078308597</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">718</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S07</SimpleData>
+		<SimpleData name="nombre">Base Matienzo</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-64.975817</SimpleData>
+		<SimpleData name="long_gd">-60.070946</SimpleData>
+		<SimpleData name="lat_gs">-64º58'33&quot;</SimpleData>
+		<SimpleData name="long_gs">-60º 4'15&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-60.0709460140685,-64.9758173382021</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">719</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S06</SimpleData>
+		<SimpleData name="nombre">Base Marambio</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-64.241142</SimpleData>
+		<SimpleData name="long_gd">-56.625366</SimpleData>
+		<SimpleData name="lat_gs">-64º14'28&quot;</SimpleData>
+		<SimpleData name="long_gs">-56º37'31&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-56.6253663128119,-64.2411417932812</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#bahra_base_antartica">
+		<SimpleData name="id">720</SimpleData>
+		<SimpleData name="cod_pcia">94</SimpleData>
+		<SimpleData name="nom_pcia">Tierra del Fuego</SimpleData>
+		<SimpleData name="cod_depto">94028</SimpleData>
+		<SimpleData name="nom_depto">Antártida Argentina</SimpleData>
+		<SimpleData name="código">94028S00</SimpleData>
+		<SimpleData name="nombre">Base Belgrano II</SimpleData>
+		<SimpleData name="tipo">Base Antártica</SimpleData>
+		<SimpleData name="cod_agl">940000</SimpleData>
+		<SimpleData name="nom_agl">sin gobierno local</SimpleData>
+		<SimpleData name="lat_gd">-77.875510</SimpleData>
+		<SimpleData name="long_gd">-34.679567</SimpleData>
+		<SimpleData name="lat_gs">-77º52'32&quot;</SimpleData>
+		<SimpleData name="long_gs">-34º40'46&quot;</SimpleData>
+		<SimpleData name="fuente">IGN</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>-34.6795667087982,-77.8755139273005</coordinates></Point></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
