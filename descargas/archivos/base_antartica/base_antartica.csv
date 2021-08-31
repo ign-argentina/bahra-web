@@ -1,0 +1,14 @@
+id,cod_pcia,nom_pcia,cod_depto,nom_depto,código,nombre,tipo,cod_aglo,nom_aglo,cod_agl,nom_agl,lat_gd,long_gd,lat_gs,long_gs,fuente
+"708","94",Tierra del Fuego,"94021",Islas del Atlántico Sur,94021S00,Base Orcadas,Base Antártica,,,"940000",sin gobierno local,"-60.737717","-44.740068","-60º44'16""","-44º44'24""",IGN
+"709","94",Tierra del Fuego,"94028",Antártida Argentina,94028S09,Base Petrel,Base Antártica,,,"940000",sin gobierno local,"-63.477733","-56.226983","-63º28'40""","-56º13'37""",IGN
+"710","94",Tierra del Fuego,"94028",Antártida Argentina,94028S01,Base Brown,Base Antártica,,,"940000",sin gobierno local,"-64.895387","-62.870669","-64º53'43""","-62º52'14""",IGN
+"711","94",Tierra del Fuego,"94028",Antártida Argentina,94028S11,Base San Martín,Base Antártica,,,"940000",sin gobierno local,"-68.129953","-67.100926","-68º 7'48""","-67º 6' 3""",IGN
+"712","94",Tierra del Fuego,"94028",Antártida Argentina,94028S08,Base Melchior,Base Antártica,,,"940000",sin gobierno local,"-64.325730","-62.976429","-64º19'33""","-62º58'35""",IGN
+"713","94",Tierra del Fuego,"94028",Antártida Argentina,94028S04,Base Decepción,Base Antártica,,,"940000",sin gobierno local,"-62.975664","-60.697678","-62º58'32""","-60º41'52""",IGN
+"714","94",Tierra del Fuego,"94028",Antártida Argentina,94028S10,Base Primavera,Base Antártica,,,"940000",sin gobierno local,"-64.155832","-60.954741","-64º 9'21""","-60º57'17""",IGN
+"715","94",Tierra del Fuego,"94028",Antártida Argentina,94028S05,Base Esperanza,Base Antártica,,,"940000",sin gobierno local,"-63.398008","-56.997122","-63º23'53""","-56º59'50""",IGN
+"716","94",Tierra del Fuego,"94028",Antártida Argentina,94028S02,Base Carlini,Base Antártica,,,"940000",sin gobierno local,"-62.238467","-58.667012","-62º14'18""","-58º40' 1""",IGN
+"717","94",Tierra del Fuego,"94028",Antártida Argentina,94028S03,Base Cámara,Base Antártica,,,"940000",sin gobierno local,"-62.595108","-59.918406","-62º35'42""","-59º55' 6""",IGN
+"718","94",Tierra del Fuego,"94028",Antártida Argentina,94028S07,Base Matienzo,Base Antártica,,,"940000",sin gobierno local,"-64.975817","-60.070946","-64º58'33""","-60º 4'15""",IGN
+"719","94",Tierra del Fuego,"94028",Antártida Argentina,94028S06,Base Marambio,Base Antártica,,,"940000",sin gobierno local,"-64.241142","-56.625366","-64º14'28""","-56º37'31""",IGN
+"720","94",Tierra del Fuego,"94028",Antártida Argentina,94028S00,Base Belgrano II,Base Antártica,,,"940000",sin gobierno local,"-77.875510","-34.679567","-77º52'32""","-34º40'46""",IGN

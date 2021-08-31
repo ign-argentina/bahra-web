@@ -1,7 +1,5 @@
-descargas/archivos
 *.env
 *.log
-*.csv
 *~
 .DS_Store
 .DS_Store?
